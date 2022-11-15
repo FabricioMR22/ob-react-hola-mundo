@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import ContactClass from './components/container/contact_list';
+import Ejemplo4 from './hooks/Ejemplo4';
+/* import MiComponenteContexto from './hooks/Ejemplo3'; */
+
+/* import ContactClass from './components/container/contact_list';
+import Ejemplo1 from './hooks/Ejemplo1';
+import Ejemplo2 from './hooks/Ejemplo2'; */
 
 /* import Greeting from './components/pure/greeting';
 import GreetingF from './components/pure/greetingF'; */
@@ -14,7 +19,15 @@ function App() {
         {/* <Greeting name="Martin"></Greeting> */}
         {/* <GreetingF name="Martin"></GreetingF> */}
         {/* <TaskListComponent></TaskListComponent> */}
-        <ContactClass></ContactClass>
+        {/* <ContactClass></ContactClass> */}
+        {/* <Ejemplo1></Ejemplo1> */}
+        {/* <Ejemplo2></Ejemplo2> */}
+        {/* <MiComponenteContexto></MiComponenteContexto> */}
+        <Ejemplo4 nombre='Fabricio'>
+          <h3>
+            Contenido del children props.children
+          </h3>
+        </Ejemplo4>
       </header>
     </div>
   );
