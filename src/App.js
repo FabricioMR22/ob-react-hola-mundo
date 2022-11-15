@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import ContactClass from './components/container/contact_list';
+
 /* import Greeting from './components/pure/greeting';
 import GreetingF from './components/pure/greetingF'; */
-import TaskListComponent from './components/container/task_list';
+/* import TaskListComponent from './components/container/task_list'; */
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         {/* <Greeting name="Martin"></Greeting> */}
         {/* <GreetingF name="Martin"></GreetingF> */}
-        <TaskListComponent></TaskListComponent>
+        {/* <TaskListComponent></TaskListComponent> */}
+        <ContactClass></ContactClass>
       </header>
     </div>
   );
