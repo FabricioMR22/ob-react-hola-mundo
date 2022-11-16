@@ -21,7 +21,7 @@ const Ejercicio456 = () => {
       return () => {
          clearInterval(timerID);
       };
-   }, []);
+   }, );
    
    return (
       <div>

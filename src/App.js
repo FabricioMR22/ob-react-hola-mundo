@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Ejercicio456 from './hooks/lifecycle/Ejercicio456';
+/* import Ejercicio456 from './hooks/lifecycle/Ejercicio456'; */
 /* import Ejemplo4 from './hooks/Ejemplo4'; */
 /* import MiComponenteContexto from './hooks/Ejemplo3'; */
 
@@ -10,17 +10,16 @@ import Ejemplo2 from './hooks/Ejemplo2'; */
 
 /* import Greeting from './components/pure/greeting';
 import GreetingF from './components/pure/greetingF'; */
-/* import TaskListComponent from './components/container/task_list'; */
+import TaskListComponent from './components/container/task_list';
 /* import GreetingStyled from './components/pure/greetingStyled'; */
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      {/* <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" /> */}
         {/* <Greeting name="Martin"></Greeting> */}
         {/* <GreetingF name="Martin"></GreetingF> */}
-        {/* <TaskListComponent></TaskListComponent> */}
         {/* <ContactClass></ContactClass> */}
         {/* <Ejemplo1></Ejemplo1> */}
         {/* <Ejemplo2></Ejemplo2> */}
@@ -32,8 +31,9 @@ function App() {
         </Ejemplo4> */}
         {/* <GreetingStyled name="Fabricio"></GreetingStyled> */}
 
-        <Ejercicio456></Ejercicio456>
-      </header>
+        {/* <Ejercicio456></Ejercicio456> */}
+      {/* </div></header> */}
+      <TaskListComponent></TaskListComponent>
     </div>
   );
 }
