@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Ejemplo4 from './hooks/Ejemplo4';
+import Ejercicio456 from './hooks/lifecycle/Ejercicio456';
+/* import Ejemplo4 from './hooks/Ejemplo4'; */
 /* import MiComponenteContexto from './hooks/Ejemplo3'; */
 
 /* import ContactClass from './components/container/contact_list';
@@ -10,7 +11,7 @@ import Ejemplo2 from './hooks/Ejemplo2'; */
 /* import Greeting from './components/pure/greeting';
 import GreetingF from './components/pure/greetingF'; */
 /* import TaskListComponent from './components/container/task_list'; */
-import GreetingStyled from './components/pure/greetingStyled';
+/* import GreetingStyled from './components/pure/greetingStyled'; */
 
 function App() {
   return (
@@ -29,7 +30,9 @@ function App() {
             Contenido del children props.children
           </h3>
         </Ejemplo4> */}
-        <GreetingStyled name="Fabricio"></GreetingStyled>
+        {/* <GreetingStyled name="Fabricio"></GreetingStyled> */}
+
+        <Ejercicio456></Ejercicio456>
       </header>
     </div>
   );
